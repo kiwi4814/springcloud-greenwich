@@ -9,6 +9,7 @@
         <module>springcloud-eureka-serviceprovider</module>
         <module>springcloud-eureka-serviceconsumer-ribbon</module>
         <module>springcloud-eureka-serviceconsumer-feign</module>
+        <module>springcloud-config-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

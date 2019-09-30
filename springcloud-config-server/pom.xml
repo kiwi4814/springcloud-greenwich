@@ -9,27 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-eureka-serviceconsumer-feign</artifactId>
+    <artifactId>springcloud-config-server</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--引入eureka-client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <!--引入 feign -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <!--引入 hystrix-->
-        <dependency>
-            <groupFeignClientId>org.springframework.cloud</groupFeignClientId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
